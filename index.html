@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul id="nav_bar">
+        <li class="nav_bar__link">
+          <a href="https://www.google.com/intl/uk/gmail/about/">Gmail</a>
+        </li>
+
+        <li class="nav_bar__link">
+          <a href="https://www.google.com/imghp?hl=uk&tab=ii&authuser=0">Зображення</a>
+        </li>
+
+        <li class="nav_bar__link">
+          <div class="nav_bar__link--menu">
+            <img src="src/icons/menu_icon.png" class="nav_bar__link--menu--icon">
+          </div>
+        </li>
+
+        <li class="nav_bar__link" id="nav_bar__link__sign_in">
+          <a
+            href="https://accounts.google.com/v3/signin/identifier?dsh=S654432353%3A1689352063172257&continue=https%3A%2F%2Fwww.google.com%2Fimghp%3Fhl%3Duk%26tab%3Dii%26authuser%3D0&ec=GAZAAg&hl=uk&ifkv=AeDOFXjchN76q3iK3GHvlwLUcbcyL8H6oXDorVt3HIWWc9lvlcw9vTSzCI1DqKZt3QqW92GQTOt3&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+          >
+            Увійти
+          </a>
+        </li>
+      </ul>  
+    </nav>  
+  </header>  
+   
+  <section class="google">
+    <div class="google__logo">
+      <a href="#" class="google__logo__image" id="google__logo__image--google">
+        <img src="src/images/google_logo.svg" alt="google logo"/>
+      </a>
+    </div>
+
+    <div class="google__logo">
+      <a href="#" class="google__logo__image" id="google__logo__image--oddity">
+        <img
+          src="src/images/oddity.png"
+          alt="google logo"
+          class="google__logo__image--oddity"
+        />
+      </a>
+    </div>
+     
+    <div class="google__form">
+      <form>
+        <label for="google__form__search google__form__search__container"
+          <div class="google__form__search__container">
+            <img
+              src="src/icons/icon_search.svg"
+              alt="Search"
+              class="google__form__search__icon"
+            />
+
+            <input
+              type="text"
+              id="google__form__search"
+              placeholder="Шукайте в Google або введіть URL-адресу"
+            />
+            
+            <div class="google__form__search__icons icons">
+              <img
+                src="src/icons/keyboard.png"
+                alt="Keyboard"
+                class="icons__icon"
+              />
+            
+              <img
+                src="src/icons/googlemic_clr_24px.svg"
+                alt="Microphone"
+                class="icons__icon"
+              />
+              
+              <a href="https://www.google.com/imghp?hl=uk&tab=ii&authuser=0">
+                <img
+                  src="src/icons/lens_icon.svg"
+                  alt="Camera"
+                  class="icons__icon"
+                />
+              </a>
+            </div>
+          </div>
+        </label>
+      </form>
+    </div>    
+    
+    <div class="google__buttons">  
+      <a
+        href="#"
+        class="google__buttons__button"
+        id="google__buttons__search"
+      >
+        Пошук Google
+      </a>
+  
+      <a
+        href="#"
+        class="google__buttons__button"
+        id="google__buttons__lucky"
+      >
+        Мені пощастить
+      </a>
+    </div>
+  
+    <div class="google__language">
+      <p>
+        Мова Google:
+      </p>
+  
+      <a href="index-eng.html" class="google__language__english">
+        English
+      </a>
+    </div>
+  </section>
+
+  <footer class="google__footer footer">
+    <div class="google__footer__country footer__container">
+      <a href="#">Україна</a>
+    </div>
+
+    <div class="google__footer__settings footer__container">
+      <ul class="google__footer__list">
+        <li class="google__footer__list__item">
+          <a href="https://about.google/">
+            Про Google
+          </a>
+        </li>
+  
+        <li class="google__footer__list__item">
+          <a href="https://ads.google.com/home/?subid=ww-ww-et-g-aw-a-helpcenter_1!02&sjid=7317077867441872410-EU#!#%3Fmodal_active=none">
+            Реклама
+          </a>
+        </li>
+  
+        <li class="google__footer__list__item">
+          <a href="https://workspace.google.com/intl/uk/business/small-business/">
+            Для бізнесу
+          </a>
+        </li>
+  
+        <li class="google__footer__list__item">
+          <a href="https://www.google.com/intl/uk/search/howsearchworks/">
+            Як працює пошук
+          </a>
+        </li>
+      </ul>
+  
+  
+      <ul class="google__footer__list">    
+        <li class="google__footer__list__item">
+          <a href="https://policies.google.com/">
+            Конфіденційність
+          </a>
+        </li>
+  
+        <li class="google__footer__list__item">
+          <a href="https://policies.google.com/terms">
+            Умови
+          </a>
+        </li>
+  
+        <li class="google__footer__list__item">
+          <a href="https://www.google.com/intl/uk/inputtools/services/products/account-central.html">
+            Налаштування
+          </a>
+        </li>
+      </ul> 
+    </div>      
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
